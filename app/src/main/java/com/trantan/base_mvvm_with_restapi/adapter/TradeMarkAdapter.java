@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.trantan.base_mvvm_with_restapi.R;
-import com.trantan.base_mvvm_with_restapi.model.TradeMark;
+import com.trantan.base_mvvm_with_restapi.model.trademark.TradeMark;
 
 import java.util.List;
 

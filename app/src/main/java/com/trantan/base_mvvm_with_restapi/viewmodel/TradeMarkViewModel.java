@@ -3,7 +3,7 @@ package com.trantan.base_mvvm_with_restapi.viewmodel;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.trantan.base_mvvm_with_restapi.model.TradeMark;
+import com.trantan.base_mvvm_with_restapi.model.trademark.TradeMark;
 import com.trantan.base_mvvm_with_restapi.repository.TrademarkRepository;
 
 import java.util.List;

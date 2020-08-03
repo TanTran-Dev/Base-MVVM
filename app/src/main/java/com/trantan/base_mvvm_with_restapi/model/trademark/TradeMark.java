@@ -1,4 +1,4 @@
-package com.trantan.base_mvvm_with_restapi.model;
+package com.trantan.base_mvvm_with_restapi.model.trademark;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

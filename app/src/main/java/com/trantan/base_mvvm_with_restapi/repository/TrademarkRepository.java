@@ -1,12 +1,10 @@
 package com.trantan.base_mvvm_with_restapi.repository;
 
-import android.content.Context;
-
 import androidx.lifecycle.MutableLiveData;
 
 import com.trantan.base_mvvm_with_restapi.model.Page;
 import com.trantan.base_mvvm_with_restapi.model.ResponseBody;
-import com.trantan.base_mvvm_with_restapi.model.TradeMark;
+import com.trantan.base_mvvm_with_restapi.model.trademark.TradeMark;
 import com.trantan.base_mvvm_with_restapi.network.ApiClient;
 import com.trantan.base_mvvm_with_restapi.network.api_interface.TradeMarkService;
 

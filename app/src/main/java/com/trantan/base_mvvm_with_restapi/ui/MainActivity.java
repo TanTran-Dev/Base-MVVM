@@ -1,4 +1,4 @@
-package com.trantan.base_mvvm_with_restapi;
+package com.trantan.base_mvvm_with_restapi.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
@@ -7,11 +7,10 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.view.View;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.trantan.base_mvvm_with_restapi.R;
 import com.trantan.base_mvvm_with_restapi.adapter.TradeMarkAdapter;
-import com.trantan.base_mvvm_with_restapi.model.TradeMark;
+import com.trantan.base_mvvm_with_restapi.model.trademark.TradeMark;
 import com.trantan.base_mvvm_with_restapi.viewmodel.TradeMarkViewModel;
 
 import java.util.ArrayList;
