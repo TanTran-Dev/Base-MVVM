@@ -24,4 +24,5 @@ class TradeMarkViewModel extends ViewModel {
     public MutableLiveData<List<TradeMark>> getData() {
         return data;
     }
+
 }

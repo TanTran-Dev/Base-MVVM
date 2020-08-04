@@ -1,6 +1,7 @@
 package com.trantan.base_mvvm_with_restapi.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -19,7 +20,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class MainActivity extends AppCompatActivity {
+public class TrademarkActivity extends AppCompatActivity {
     @BindView(R.id.rcl_trademark)
     RecyclerView rclTrademark;
 
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        DataBindingUtil.setContentView(this, R.layout.activity_trademark);
         ButterKnife.bind(this);
 
         tradeMarkViewModel = ViewModelProviders.of(this).get(TradeMarkViewModel.class);
